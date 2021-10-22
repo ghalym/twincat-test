@@ -3,7 +3,7 @@
 	<Project ProjectGUID="{B18F8FA6-350F-4C35-98C8-B0819FEF15D8}" Target64Bit="true" ShowHideConfigurations="#x106">
 		<System>
 			<Tasks>
-				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
+				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" DisableFpExceptions="true" AdtTasks="true">
 					<Name>PlcTask</Name>
 				</Task>
 			</Tasks>

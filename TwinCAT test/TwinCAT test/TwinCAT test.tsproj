@@ -35,7 +35,9 @@
 				<Image Id="1" AddrType="9" ImageType="3">
 					<Name>Image</Name>
 				</Image>
-				<EtherCAT/>
+				<EtherCAT>
+					<SyncUnit Name="sync1" NoDeleteIfUnused="true"/>
+				</EtherCAT>
 			</Device>
 		</Io>
 	</Project>
